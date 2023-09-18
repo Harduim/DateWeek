@@ -11,6 +11,8 @@ dependencies = ["setuptools>=61.0"]
 dev = ["black", "isort"]
 unittest = ["pytest-forked", "pytest", "pytest-xdist"]
 
+[project.urls]
+Home = "https://github.com/Harduim/DateWeek"
 
 [build-system]
 build-backend = "flit_core.buildapi"
