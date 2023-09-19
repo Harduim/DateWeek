@@ -5,14 +5,18 @@ authors = [
   { name = "Arthur Harduim", email = "arthur.harduim@rioenergy.com.br" },
   { name = "Tiago Alves", email = "tiago.alves@rioenergy.com.br" },
 ]
+readme = "README.md"
+requires-python = ">=3.9"
 dependencies = ["setuptools>=61.0"]
 
 [project.optional-dependencies]
-dev = ["black", "isort"]
+dev = ["black", "isort", "flit"]
 unittest = ["pytest-forked", "pytest", "pytest-xdist"]
 
 [project.urls]
 Home = "https://github.com/Harduim/DateWeek"
+Documentation = "https://github.com/Harduim/DateWeek"
+Source = "https://github.com/Harduim/DateWeek"
 
 [build-system]
 build-backend = "flit_core.buildapi"
