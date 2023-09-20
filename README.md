@@ -9,7 +9,7 @@ from dateweek import DateWeek
 from datetime import datetime
 
 # Creating a DateWeek object for the current week
-current_week = DateWeek.current()
+current_week = DateWeek.current_week()
 
 # Creating a DateWeek object for a specific week
 week = DateWeek(2020, 1)
